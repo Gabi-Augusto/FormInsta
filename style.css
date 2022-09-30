@@ -1,12 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: auto;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
 }
 
 .areaCad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #dfe4ea;
+    flex-wrap: wrap;
+}
+
+.box {  
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 
 .formularioContainer {
@@ -42,13 +52,6 @@ legend {
 .txt {
     font-style:bold;
     font-size: 20px;
-}
-
-
-fieldset{
-    display: flex;
-    justify-content: center;
-    color: #1e272e;
 }
 
 input{
